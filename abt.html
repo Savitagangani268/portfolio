@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>My Portfolio</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: white;
+}
+
+/* Container */
+.container {
+    width: 85%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* HEADER */
+.header {
+    font-size: 32px;
+    padding: 20px;
+    border-radius: 15px;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 20px #00f7ff;
+    text-shadow: 0 0 10px #00f7ff;
+}
+
+/* ABOUT */
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 25px;
+    padding: 20px;
+    border-radius: 15px;
+
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(12px);
+    box-shadow: 0 0 25px rgba(0,255,255,0.4);
+}
+
+.about img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 3px solid #00f7ff;
+    box-shadow: 0 0 20px #00f7ff;
+}
+
+/* TEXT */
+.about-text {
+    width: 60%;
+}
+
+/* EDUCATION */
+.education {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.edu-box {
+    width: 30%;
+    padding: 20px;
+    border-radius: 15px;
+
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(10px);
+
+    box-shadow: 0 0 15px rgba(255,0,255,0.5);
+    transition: 0.3s;
+}
+
+/* SHINE HOVER EFFECT */
+.edu-box:hover {
+    transform: scale(1.08);
+    box-shadow: 0 0 30px #ff00ff, 0 0 50px #00f7ff;
+}
+
+/* IMAGES */
+.edu-box img {
+    width: 100%;
+    height: 120px;
+    border-radius: 10px;
+}
+
+/* ACHIEVEMENTS */
+.achievements {
+    margin-top: 25px;
+    padding: 20px;
+    border-radius: 15px;
+
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(10px);
+
+    box-shadow: 0 0 20px #00ffcc;
+}
+
+.achievements h2 {
+    text-shadow: 0 0 10px #00ffcc;
+}
+
+/* LIST */
+ul {
+    text-align: left;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .about {
+        flex-direction: column;
+    }
+
+    .education {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .edu-box {
+        width: 100%;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- NAME -->
+    <div class="header">
+        Savita G
+    </div>
+
+    <!-- ABOUT -->
+    <div class="about">
+        <img src="C:\Users\Savipa\OneDrive\Desktop\initializer\图片\Screenshots\WhatsApp Image 2026-01-03 at 6.51.35 PM.jpeg">
+
+        <div class="about-text">
+            <h2>About Me</h2>
+            <p>
+                I am a Computer Science student passionate about web development,
+                coding, and creating modern UI designs.
+            </p>
+        </div>
+    </div>
+
+    <!-- EDUCATION -->
+    <div class="education">
+
+        <div class="edu-box">
+            <img src="C:\Users\Savipa\OneDrive\Desktop\initializer\图片\Screenshots\Screenshot 2026-03-23 104803.png">
+            <h3>PU</h3>
+            <p>Completed PU at Sai Nikethan PU College</p>
+        </div>
+
+        <div class="edu-box">
+            <img src="https://ums.cityengineeringcollege.ac.in/public/frontPage/img/CIT-img.jpeg">
+            <h3>Degree</h3>
+            <p>B.E in Computer Science</p>
+        </div>
+
+        <div class="edu-box">
+            <img src="https://tse4.mm.bing.net/th/id/OIP.H9Uem-p9WXK4o4YmAHRxiAHaFj?rs=1&pid=ImgDetMain&o=7&rm=3">
+            <h3>SSLC</h3>
+            <p>Completed SSLC at ABC School</p>
+        </div>
+
+    </div>
+
+    <!-- ACHIEVEMENTS -->
+    <div class="achievements">
+        <h2>Achievements</h2>
+        <ul>
+            <li>🏆 Python Certification</li>
+            <li>💻 Hackathon Participant</li>
+            <li>📊 Academic Topper</li>
+        </ul>
+    </div>
+
+</div>
+
+</body>
+</html>s
